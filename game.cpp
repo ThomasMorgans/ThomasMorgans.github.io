@@ -180,7 +180,7 @@ game character_creator(std::string player_name, std::string race)
     }
     else if (race == "Halfling")
     {
-        game player(player_name, "player", race, {}, 40, 10, 6);
+        game player(player_name, "player", race, {}, 18, 4, 5);
         return player;
     }
 }
