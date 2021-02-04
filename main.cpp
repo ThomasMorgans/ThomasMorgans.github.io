@@ -278,10 +278,6 @@ int main()
                     }
                     player.inventory.pop_back();
                 }
-                else
-                {
-                    std::cout << "Stupid.\n";
-                }   
             }
         } 
 
